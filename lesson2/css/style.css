@@ -1,0 +1,35 @@
+h1{
+    color: blue;
+    text-align: right;
+    font-style: italic;
+    text-decoration: solid line-through;
+}
+table{
+    color: green;
+    font-style: italic;
+}
+p{
+    color: red;
+    font: bold 16px Arial, sans-serif;
+    line-height: 2.5;
+    text-indent: 50px;
+    text-decoration: dashed overline;
+}
+h2{
+    font-weight: normal;
+    text-align: center;
+    color: orange;
+    text-decoration: dotted underline;
+}
+a{
+    text-decoration: none;
+    color: purple;
+}
+td{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
